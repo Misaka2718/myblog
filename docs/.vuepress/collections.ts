@@ -63,6 +63,43 @@ const zhDemoDoc = defineCollection({
   // sidebar: 'auto',
 })
 
+const zhMathDoc = defineCollection({
+  // doc 类型，表示这是有侧边栏的文档（笔记）
+  type: 'doc',
+  
+  // 你的文件夹名字 (docs/math)
+  dir: 'math', 
+  
+  // 链接前缀。
+  // 注意：你的 README.md 里写的是 permalink: /math/
+  // 你的 second-try.md 里写的是 permalink: /math/srcond-try/
+  // 它们都以 '/math' 开头，所以这里必须填 '/math'
+  linkPrefix: '/math',
+  // @ts-ignore
+  link: '/math/',
+  // 这就是面包屑里显示的那个名字！
+  title: '数学思考',
+  
+  // 自动生成侧边栏（这样你就不用像 Demo 那样手动列出 'foo', 'bar' 了）
+  sidebar: 'auto', 
+})
+
+const zhAADoc = defineCollection({
+  // doc 类型，表示这是有侧边栏的文档（笔记）
+  type: 'doc',
+  
+  // 你的文件夹名字 (docs/math)
+  dir: 'Abstract-algebra', 
+  
+  linkPrefix: '/Abstract-algebra',
+  // @ts-ignore
+  link: '/Abstract-algebra/',
+  // 这就是面包屑里显示的那个名字！
+  title: '数学思考',
+  
+  // 自动生成侧边栏（这样你就不用像 Demo 那样手动列出 'foo', 'bar' 了）
+  sidebar: 'auto', 
+})
 /**
  * 导出所有的 collections
  *  (zhBlog 为博客示例，如果不需要博客功能，请删除)
@@ -71,6 +108,8 @@ const zhDemoDoc = defineCollection({
 export const zhCollections = defineCollections([
   zhBlog,
   zhDemoDoc,
+  zhMathDoc,
+  zhAADoc,
 ])
 
 /* =================== locale: en-US ======================= */

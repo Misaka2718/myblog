@@ -13,7 +13,28 @@ export const zhNavbar = defineNavbarConfig([
   { text: '归档', link: '/blog/archives/' },
   {
     text: '笔记',
-    items: [{ text: '示例', link: '/demo/README.md' }]
+    items: [
+      { text: '示例', 
+        link: '/demo/README.md' 
+      },
+      { 
+        text: '抽象代数', 
+        link: '/Abstract-algebra/README.md', 
+        icon: '/images/抽象.jpg' 
+      },
+     { 
+        text: 'Pi and The AGM', 
+        link: '/math/', 
+        icon: '/images/害怕.png' 
+      },
+
+      { 
+        text: '数学思考', 
+        link: '/math/', 
+        icon: '/images/思考.png' 
+      },
+      
+    ]
   },
 ])
 

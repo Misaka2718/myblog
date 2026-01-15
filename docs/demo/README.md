@@ -6,4 +6,3 @@ permalink: /demo/
 
 - [bar](./bar.md)
 - [foo](./foo.md)
-- [hello-math](./hello-math.md)

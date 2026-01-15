@@ -9,15 +9,19 @@ config:
     #effect: lightning
     hero:
       name: 马鹿的博客
-      tagline: baga blog
-      text: 文本测试
+      tagline: Baga's blog
+      text: 数学,好难
       actions:
         -
           theme: brand
           text: 数学思考
-          link: /blog/
+          link: /math/
         -
           theme: alt
           text: Github →
           link: https://github.com/pengzhanbo/vuepress-theme-plume
+        -
+          theme: brand
+          text: 抽代
+          link: /Abstract-algebra/
 ---
