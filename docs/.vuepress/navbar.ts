@@ -24,7 +24,12 @@ export const zhNavbar = defineNavbarConfig([
       },
      { 
         text: 'Pi and The AGM', 
-        link: '/math/', 
+        link: '/pi-agm/', 
+        icon: '/images/害怕.png' 
+      },
+      { 
+        text: '哈代数论', 
+        link: '/Hardy/', 
         icon: '/images/害怕.png' 
       },
 

@@ -22,6 +22,6 @@ config:
           link: https://github.com/pengzhanbo/vuepress-theme-plume
         -
           theme: brand
-          text: 抽代
-          link: /Abstract-algebra/
+          text: pi and agm
+          link: /pi-agm/
 ---

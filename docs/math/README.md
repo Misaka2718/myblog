@@ -14,5 +14,3 @@ permalink: /math/
 
 - [我的第一篇数学笔记](./hello-math.md)
 - [一个级数](./second-try.md)
-- [抽象代数](./abstarctalgebra.md)
-- [数学分析中的反例](./数学分析中的一些反例/三则2.md)
