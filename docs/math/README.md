@@ -15,3 +15,4 @@ permalink: /math/
 - [我的第一篇数学笔记](./hello-math.md)
 - [一个级数](./second-try.md)
 - [一个级数的变换](./级数加速法.md)
+- [e的加速计算](./e的加速计算.md)

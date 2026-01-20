@@ -117,6 +117,23 @@ const zhAADoc = defineCollection({
   sidebar: 'auto', 
 })
 
+const zhBNTDoc = defineCollection({
+  // doc 类型，表示这是有侧边栏的文档（笔记）
+  type: 'doc',
+  
+  // 你的文件夹名字 (docs/math)
+  dir: 'basic-numbertheory', 
+  
+  linkPrefix: '/basic-numbertheory',
+  // @ts-ignore
+  link: '/basic-numbertheory/',
+  // 这就是面包屑里显示的那个名字！
+  title: '数论基础 維諾格拉陀夫',
+  
+  // 自动生成侧边栏（这样你就不用像 Demo 那样手动列出 'foo', 'bar' 了）
+  sidebar: 'auto', 
+})
+
 const zhPiAGMDoc = defineCollection({
   // doc 类型，表示这是有侧边栏的文档（笔记）
   type: 'doc',

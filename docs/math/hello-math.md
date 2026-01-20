@@ -8,5 +8,6 @@ permalink: /math/2mcgmi6z/
 
 
 npm run docs:dev启动
+git push -u origin main
 $$e^{i\pi} + 1 = 0$$
 

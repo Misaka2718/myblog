@@ -32,7 +32,11 @@ export const zhNavbar = defineNavbarConfig([
         link: '/Hardy/', 
         icon: '/images/害怕.png' 
       },
-
+{ 
+        text: '数论基础', 
+        link: '/basic-numbertheory/', 
+        icon: '/images/害怕.png' 
+      },
       { 
         text: '数学思考', 
         link: '/math/', 

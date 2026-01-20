@@ -2,11 +2,13 @@
 title: π与AGM笔记
 createTime: 2026/01/16 
 permalink: /pi-agm/
+
 ---
 
 # π与AGM笔记
 
 这里是PI and the AGM: A Study in Analytic Number Theory and Computational Complexity《π与算术几何平均：关于解析数论和计算复杂性的研究》
+持续学习,持续更新中
 
 <img src="/images/害怕.png" width="200px" height="300px">
 

@@ -13,6 +13,8 @@ import { viteBundler } from '@vuepress/bundler-vite'
 import { defineUserConfig } from 'vuepress'
 import { plumeTheme } from 'vuepress-theme-plume'
 
+//import { mdEnhancePlugin } from "vuepress-plugin-md-enhance";
+
 export default defineUserConfig({
   base: '/myblog/',
   lang: 'zh-CN',
