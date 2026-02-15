@@ -1,5 +1,5 @@
 ---
-title: 级数,公式
+title: 杂乱的级数,公式
 createTime: 2026/01/15 13:52:48
 permalink: /math/zkzkhq8n/
 ---
