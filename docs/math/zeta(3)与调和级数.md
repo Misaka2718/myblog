@@ -51,8 +51,9 @@ $$\begin{aligned}
 
 
 总之，
-$$\sum_{m=1}^{I}( r_m + J_m) = \sum_{i=1}^{I} \sum_{k=1}^{K} 
-
+$$
+\sum_{m=1}^{I}( r_m + J_m) = \sum_{i=1}^{I} \sum_{k=1}^{K} 
+$$
 令 $I = K = n$，化简后得：
 
 $$\sum_{k=1}^{n} \frac{1}{k(k+x)} = \sum_{k=1}^{n} \frac{(x+1)_{k-1} (3k+2x)}{k(k+x+1)_k} - \sum_{k=1}^{n} \frac{(x+1)_{k-1}}{k(n+x+1)_k}\tag{1}$$
